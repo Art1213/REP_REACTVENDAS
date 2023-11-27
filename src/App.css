@@ -1,0 +1,72 @@
+/* Estilos globais */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilos do Header */
+header {
+  background-color: #3498db; /* Azul */
+  color: #fff; /* Texto branco */
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos dos Produtos */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos do botão de adicionar ao carrinho */
+.product button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilos da coluna de opções */
+.options-column {
+  background-color: #f0f0f0; /* Cor de fundo da coluna de opções */
+  padding: 20px;
+}
+
+.options-column p {
+  margin: 0;
+}
